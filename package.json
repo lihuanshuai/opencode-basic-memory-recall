@@ -1,0 +1,47 @@
+{
+  "name": "opencode-basic-memory-recall",
+  "version": "0.1.0",
+  "description": "Inject a Basic Memory session-start briefing into OpenCode sessions",
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "files": [
+    "src",
+    "scripts",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "opencode",
+    "opencode-plugin",
+    "basic-memory",
+    "mcp",
+    "memory",
+    "knowledge-base"
+  ],
+  "homepage": "https://github.com/lihuanshuai/opencode-basic-memory-recall#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lihuanshuai/opencode-basic-memory-recall.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lihuanshuai/opencode-basic-memory-recall/issues"
+  },
+  "scripts": {
+    "preview": "node scripts/preview.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "peerDependencies": {
+    "@opencode/plugin": "latest"
+  },
+  "devDependencies": {
+    "@opencode/plugin": "latest",
+    "@types/node": "^22.10.2",
+    "typescript": "^5.6.3"
+  },
+  "engines": {
+    "node": ">=22.6"
+  },
+  "license": "MIT"
+}
